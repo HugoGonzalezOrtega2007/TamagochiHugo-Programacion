@@ -151,6 +151,9 @@ public class Main {
                     salud -= 1;
                 } else {
                     System.out.println("Has descansado bien");
+                    energia += 4;
+                    felicidad -= 1;
+
                 }
                 energia += 4;
                 felicidad -= 1;
@@ -320,9 +323,9 @@ public class Main {
                             System.out.println("No te quedan bocadillos de queso. Compra en la tienda");
                         } else if (cantidadBocatasQueso > 0 && malaSuerte == 16) {
                             System.out.println("Te has comido un bocadillo de queso pero te ha sentado mal🤮");
-                            energia -= 4;
+                            energia -= 2;
                             salud -= 3;
-                            felicidad -= 1;
+                            felicidad -= 2;
                         } else if (cantidadBocatasQueso > 0) {
                             System.out.println("Te has comido un bocadillo de queso 🥖");
                             hambre += 3;
@@ -347,9 +350,9 @@ public class Main {
                             System.out.println("No te quedan bolsas de patatas de jamon. Compra en la tienda");
                         } else if (cantidadPatatasJamon > 0 && malaSuerte == 12) {
                             System.out.println("Te has comido una bolsa de patatas de jamon pero te ha sentado mal 🤮");
-                            energia -= 3;
-                            salud -= 2;
-                            felicidad -= 1;
+                            energia -= 2;
+                            salud -= 3;
+                            felicidad -= 2;
                         } else if (cantidadPatatasJamon > 0) {
                             System.out.println("Te has comido una bolsa de patatas de jamon 🍟");
                             hambre += 3;
@@ -374,9 +377,9 @@ public class Main {
                             System.out.println("No te quedan frankfurts. Compra en la tienda");
                         } else if (cantidadFrankfurts > 0 && malaSuerte == 2) {
                             System.out.println("Te has comido un frankfurt pero te ha sentado mal 🤮");
-                            energia -= 3;
-                            salud -= 2;
-                            felicidad -= 1;
+                            energia -= 2;
+                            salud -= 3;
+                            felicidad -= 2;
                         } else if (cantidadFrankfurts > 0) {
                             System.out.println("Te has comido un frankfurt 🥖");
                             hambre += 3;
