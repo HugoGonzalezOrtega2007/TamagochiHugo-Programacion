@@ -1,7 +1,7 @@
 # TamagochiHugo Programacion
 
 ¿Como jugar?
-1. Primero el programa dará la bienvenida al usuario y le pedirá que introduzca un nombre a la mascota junto a un aspecto en forma de emoji.
+1. El programa dará la bienvenida al usuario y le pedirá que introduzca un nombre a la mascota junto a un aspecto en forma de emoji.
 2. Una vez introducida la introducción, el programa preguntará al usuario si quiere modificar algo. En caso de que si, simplemente hay que escribir "Si" y el programa volverá a preguntar tanto el nombre como el aspecto. En caso contrario, escribiendo "No" el programa iniciará.
 3. Una vez inicia el programa, se mostrarán las estadisticas iniciales del Tamagochi (empiezan todas en cinco): Energía, hambre, felicidad, salud y dinero. Luego dejará escoger al usuario si quiere jugar, dormir, ir al hospital, ir a la tienda, ingerir, ver estado o salir del juego. Para escoger la opción que quiera, el usuario deberá escribir el nombre de la opción tal y como se muestra en el programa.
 
@@ -22,7 +22,7 @@ En la tienda el usuario podrá adquirir cosas para ingerir posteriormente. Al es
 - Paracetamol o porro: Si el usuario escoge alguna de estas dos opciones, será preguntado por la cantidad que quiere comprar. Si compra el elemento se le restará al usuario la cantidad de lo que quiera comprar multiplicado por su precio. En caso de no tener suficiente dinero el programa mostrará un mensaje conforme a que no has podido comprar por falta de dinero.
 
 INGERIR
-En esta sección se le preguntará al usuario lo que quiere ingerir junto a la cantidad que dispone de cada elemento.
+En esta sección se le preguntará al usuario lo que quiere ingerir junto a la cantidad que dispone de cada elemento. El usuario empezará con todo en cero y a medida que compre en la tienda se le irán sumando para poder ingerir.
 
 - Comida: Si el usuario decide ingerir comida será preguntado por que comida quiere ingerir junto a la cantidad que dispone de cada alimento. Si escoge algo que no tiene se mostrará el siguiente mensaje: "No te quedan -----. Compra en la tienda. ". Si el usuario si dispone del alimento escogido puede o bien comerlo de manera correcta y a sus estadisticas se le sumará tres puntos en hambre y se le restará uno en energía, pero si le sienta mal la comida (puede ocurrir en los bocadillos de queso, en las patatas de jamón y en los frankfurts) se le restará dos puntos en energía y felicidad y se le restará tres en salud.
 
@@ -40,4 +40,3 @@ Si el usuario escoge esta opción el programa mostrará un mensaje diciendo que 
 A S P E C T O S  I M P O R T A N T E S
 - En todas las estadísticas menos en dinero el Tamagochi no podrá superar los diez puntos.
 - Si una de las estadísticas queda en cero o negativo se mostrará un mensaje diciendo que el usuario ha perdido y se acabará el programa.
-- 
